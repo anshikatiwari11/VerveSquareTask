@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="ChromeTest">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			 <class name="testScripts.HomePage" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="IETest">
+		<parameter name="Browser" value="IE"></parameter>
+		<classes>
+			<!--  <class name="testScripts.HomePage" /> -->
+		</classes>
+	</test> <!-- Test -->
+			<test name="FirefoxTest">
+		<parameter name="Browser" value="Firefox"></parameter>
+		<classes>
+			<!--  <class name="testScripts.HomePage" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
